@@ -5,7 +5,7 @@ package RunShellScript;
 
 public class RunShellScript {
     public static void main(String[] args) throws IOException {
-        String[] cmd = { "/bin/sh", "/root/Desktop/JavaTOOD/executavel-com-interface/jar.sh" };
+        String[] cmd = { "/bin/sh", "/root/Desktop/JavaTOOD/executavel-com-interface/reiniciar.sh" };
         Process p = Runtime.getRuntime().exec(cmd);
         BufferedReader reader = new BufferedReader(new InputStreamReader(p.getInputStream()));
         String line = "";
